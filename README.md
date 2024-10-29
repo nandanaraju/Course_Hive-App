@@ -42,3 +42,35 @@ This Blockchain Courses web application offers an interactive interface to brows
    ```bash
    git clone [repo-url]
    cd MERN-ITAM-APP
+   ```
+2. **Set Up the Server**
+
+To set up the backend server:
+
+```bash
+cd server
+npm install
+node server.js
+```
+Make sure MongoDB is running by starting the MongoDB daemon with:
+```bash
+sudo systemctl start mongod
+```
+3. **Set Up the Client**
+
+To set up the frontend:
+
+```bash
+cd ../ui
+npm install
+npm run dev
+```
+Once the client server is running, open your browser and visit:
+http://localhost:3000
+
+4.Stopping the Application
+
+To stop the application, press Ctrl+C in each terminal where the servers are running.
+
+📫 Contact
+For more information or support, please reach out via our Contact Page or email us at support@blockchaincourses.com.

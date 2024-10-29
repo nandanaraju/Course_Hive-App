@@ -68,7 +68,7 @@ npm run dev
 Once the client server is running, open your browser and visit:
 http://localhost:3000
 
-4.Stopping the Application
+4. **Stopping the Application**
 
 To stop the application, press Ctrl+C in each terminal where the servers are running.
 
